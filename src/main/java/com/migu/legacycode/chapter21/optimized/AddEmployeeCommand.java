@@ -6,7 +6,7 @@ public class AddEmployeeCommand extends Command {
         return new byte[]{0x02};
     }
 
-    public AddEmployeeCommand(String name, String address, String city, String state, int yearlySalary) {
+    AddEmployeeCommand(String name, String address, String city, String state, int yearlySalary) {
         fields.add(name);
         fields.add(address);
         fields.add(city);

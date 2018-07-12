@@ -6,7 +6,7 @@ public class LoginCommand extends Command {
     }
 
 
-    public LoginCommand(String userName, String passwd) {
+    LoginCommand(String userName, String passwd) {
         fields.add(userName);
         fields.add(passwd);
     }
